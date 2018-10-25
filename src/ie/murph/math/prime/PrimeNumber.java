@@ -14,17 +14,16 @@ public class PrimeNumber
 
 	private static boolean isPrime(int number)
 	{
-		for(int iteration = 2; iteration < number/2; iteration++)
+		if (number < 2) return false;
+        if (number == 2) return true;
+        if (number % 2 == 0) return false;
+		for(int iteration = 3; iteration * iteration < number/2; iteration++)
 		{
-			if(iteration % number == 0)
+			if(number % iteration == 0)
 			{
 				return false;
 			}
-			else
-			{
-				return true;
-			}
 		}
-		return false;
+		return true;
 	}
 }
