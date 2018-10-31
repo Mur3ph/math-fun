@@ -1,5 +1,7 @@
 package ie.murph.math.modulus;
 
+import java.util.stream.IntStream;
+
 public class ModulusFun
 {
 	public static void main(String[] arguments)
@@ -26,6 +28,11 @@ public class ModulusFun
 					{
 						System.out.println("Number: " + iteraation + " Crackle");
 					}
+					else
+					{
+						System.out.println(number);
+					}
 		}
 	}
+	
 }

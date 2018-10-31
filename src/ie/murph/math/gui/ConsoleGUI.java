@@ -10,7 +10,7 @@ public class ConsoleGUI {
 	
 	public void runMathLearningGUI()
 	{
-		
+		askStudentIfTheyWishToContinueLearaning();
 	}
 	
 	// Method to ask the user if they want to try another card again.
