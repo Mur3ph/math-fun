@@ -1,6 +1,5 @@
 package ie.murph.math.modulus;
 
-import java.util.stream.IntStream;
 
 public class ModulusFun
 {
